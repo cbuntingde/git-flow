@@ -1,0 +1,15 @@
+{
+  "name": "git-flow",
+  "version": "0.4.0",
+  "description": "Branch-per-task workflow plugin for Modelize.",
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/smoke.test.mjs",
+    "lint:links": "node --test --test-name-pattern=reference test/smoke.test.mjs"
+  }
+}

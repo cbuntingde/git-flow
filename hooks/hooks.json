@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "session_start": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'git-flow plugin loaded: load the git-flow skill (skills/git-flow/SKILL.md) when the user asks for a code change in a git repo.'"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'git-flow plugin loaded: load the git-flow skill (skills/git-flow/SKILL.md) when the user asks for a code change in a git repo.'"
+          }
+        ]
+      }
+    ]
+  }
+}

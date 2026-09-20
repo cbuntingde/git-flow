@@ -1,0 +1,16 @@
+{
+  "name": "git-flow",
+  "version": "0.4.0",
+  "description": "Plugin that turns every code change into a clean, reviewable update on GitHub.",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/cbuntingde/git-flow",
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "Git Flow",
+    "shortDescription": "Branch → pull request → wait for checks → land, one branch per change.",
+    "longDescription": "Modelize plugin that turns every code change into a clean, reviewable update on GitHub. Creates an isolated branch, runs a local check against the working tree, opens a pull request, waits for the required checks, and lands the change automatically. Exposes slash commands (/branch, /pr, /watch, /merge, /status, /back-to-main, /setup-ci) for fine-grained control. /setup-ci is opt-in and scaffolds a minimal GitHub Actions workflow when the repo has none. GitHub-only; uses `gh` and `git` directly.",
+    "developerName": "git-flow"
+  }
+}
